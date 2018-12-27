@@ -9,6 +9,20 @@ body {
     clear: both;
 }
 
+div {
+    border: solid 1px #000000;
+}
+
+.box2 {
+    width: 49.5%;
+    float: left;
+}
+
+.box3 {
+    width: 49.5%;
+    float: left;
+}
+
 @media (max-width: 599px) {
 
 }
@@ -22,5 +36,8 @@ body {
 }
 
 @media (min-width: 1040px) {
-
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
 }

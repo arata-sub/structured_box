@@ -18,6 +18,14 @@ div {
             box-sizing: border-box;
 }
 
+.box2 {
+    width: 100%
+}
+
+.box3 {
+    width: 100%;
+}
+
 @media (max-width: 599px) {
 
 }
@@ -27,12 +35,12 @@ div {
 }
 
 @media (min-width: 768px) {
-    .box2 {
+    .box2_1 {
         width: 50%;
         float: left;
     }
     
-    .box3 {
+    .box2_2 {
         width: 50%;
         float: left;
     }

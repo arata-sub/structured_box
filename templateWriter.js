@@ -8,4 +8,17 @@ request.addEventListener("load",initTemplate,false);
 
 function initTemplate() {
     console.log(request.response);
+    let template = request.response;
+    
+    if (template['box1'] === true) {
+
+    }
+
+    if (template['box2'] === true) {
+
+    }
+
+    if (template['box3'] === true) {
+
+    }
 }
